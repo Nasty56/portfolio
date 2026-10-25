@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Портфолио | Анастасия Погорельцева</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;800&family=Playfair+Display:ital,wght@0,600;1,600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="container">
+
+    <header class="card hero" id="home">
+        <img src="me.png" alt="Анастасия Погорельцева" class="hero-image">
+        <h1>ПОРТФОЛИО</h1>
+        <div class="hero-info">
+            <span>АНАСТАСИЯ ПОГОРЕЛЬЦЕВА</span>
+            <span>2025</span>
+        </div>
+    </header>
+
+    <section class="grid-2">
+        <div class="card-light">
+            <h3>СОДЕРЖАНИЕ</h3>
+            <ul class="toc-list">
+                <li><a href="#about">01. О себе</a></li>
+                <li><a href="#skills">02. Ключевые навыки</a></li>
+                <li><a href="#project-1">03. Fullstack-система «Доверенность»</a></li>
+                <li><a href="#project-2">04. Автоматизация (Excel + VBA)</a></li>
+                <li><a href="#project-3">05. Дашборд «Погода.Юг»</a></li>
+                <li><a href="#project-4">06. Telegram-бот «Просто Таро»</a></li>
+                <li><a href="#contacts">07. Контакты</a></li>
+            </ul>
+        </div>
+        <div class="card">
+            <div class="subtitle">Специализация</div>
+            <h2>FULLSTACK<br>РАЗРАБОТКА</h2>
+            <p class="card-text">
+                Студентка 2 курса «Прикладная информатика». Умею превращать рутинную работу с документами и данными в удобные цифровые инструменты. Владею стеком React + Java (Spring Boot) + SQL.
+            </p>
+
+            <img src="prog.png" alt="Рабочий процесс" class="card-image zoomable">
+        </div>
+    </section>
+
+    <section class="card about-me" id="about">
+        <div class="about-text">
+            <h2>ОБО МНЕ</h2>
+            <p>
+                Ищу позицию стажера или Junior-специалиста (Fullstack-разработчик / Аналитик данных / Специалист по автоматизации), где смогу применять навыки работы с базами данных, backend-логикой и созданием интуитивных интерфейсов.
+            </p>
+            <p style="margin-top: 15px;">
+                Имею практический опыт разработки fullstack-приложений и автоматизации бизнес-процессов. Легко осваиваю новые технологии (самостоятельно изучила Spring Boot и деплой).
+            </p>
+            <div class="contact-info" style="margin-top: 20px;">
+                <p>+7 (918) 028-66-21</p>
+                <p>pogorelcevanasta5@gmail.com</p>
+                <p>GitHub: github.com/Nasty56</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="card-light" id="skills">
+        <h2>КЛЮЧЕВЫЕ НАВЫКИ</h2>
+        <div class="grid-2" style="margin-top: 20px;">
+            <div class="skills-list" style="color: var(--text-dark);">
+                <h3 style="color: var(--dark-green);">Backend & Базы данных</h3>
+                <ul>
+                    <li>Java, Spring Boot, Spring Data JPA</li>
+                    <li>Hibernate, Lombok, REST API</li>
+                    <li>SQL (MySQL, DBeaver)</li>
+                    <li>Проектирование реляционных БД</li>
+                </ul>
+            </div>
+            <div class="skills-list" style="color: var(--text-dark);">
+                <h3 style="color: var(--dark-green);">Frontend & Инструменты</h3>
+                <ul>
+                    <li>React (JSX, хуки, react-router-dom)</li>
+                    <li>JavaScript (ES6+, Axios), HTML5, CSS3</li>
+                    <li>Ant Design, react-to-print</li>
+                    <li>Git/GitHub, IntelliJ IDEA, VS Code, Figma</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section class="projects-section">
+        <h2 style="text-align: center; margin-bottom: 30px; color: var(--dark-green);">ИЗБРАННЫЕ ПРОЕКТЫ</h2>
+
+        <div class="grid-2">
+            <div class="project-card" id="project-1">
+                <img src="dov.png" alt="Доверенность" class="project-img zoomable">
+                <div class="project-content">
+                    <div class="project-tags">React, Java, Spring Boot, MySQL</div>
+                    <div class="project-title">Fullstack-система «Доверенность»</div>
+                    <div class="project-desc">
+                        Веб-приложение для создания, редактирования и печати документов. Спроектирована БД (5 таблиц), реализован слой сущностей и REST-контроллеров. На фронтенде — SPA с CRUD-операциями и интеграцией Ant Design.
+                    </div>
+                    <a href="https://github.com/Nasty56" class="project-link" target="_blank">Смотреть на GitHub</a>
+                </div>
+            </div>
+
+            <div class="project-card" id="project-2">
+                <img src="excel.png" alt="Автоматизация Excel" class="project-img zoomable">
+                <div class="project-content">
+                    <div class="project-tags">Excel, VBA, MS Access</div>
+                    <div class="project-title">Автоматизация документооборота</div>
+                    <div class="project-desc">
+                        Разработала 5 автоматизированных шаблонов в Excel с VBA-макросами. Спроектировала 6 реляционных баз данных в MS Access с формами ввода и запросами для учета информации.
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-card" id="project-3">
+                <img src="pogoda.jpg" alt="Погода.Юг" class="project-img zoomable">
+                <div class="project-content">
+                    <div class="project-tags">JavaScript, HTML5, CSS3, REST API</div>
+                    <div class="project-title">Интерактивный дашборд «Погода.Юг»</div>
+                    <div class="project-desc">
+                        Веб-приложение для отображения прогноза погоды в 9 городах. Реализована интеграция с Open-Meteo, динамическая смена цветовой темы, анимации и адаптивная верстка.
+                    </div>
+                    <a href="https://github.com/Nasty56" class="project-link" target="_blank">Смотреть на GitHub</a>
+                </div>
+            </div>
+
+            <div class="project-card" id="project-4">
+                <div class="project-content">
+                    <div class="project-tags">Python, aiogram, Render</div>
+                    <div class="project-title">Telegram-бот «Просто Таро»</div>
+                    <div class="project-desc">
+                        Спроектировала логику и UX-сценарии бота для интуитивно понятного взаимодействия. Самостоятельно настроила деплой приложения на платформу Render.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="card" style="text-align: center;" id="contacts">
+        <h2>КОНТАКТЫ</h2>
+        <p style="margin-top: 10px;">+7 (918) 028-66-21</p>
+        <p>pogorelcevanasta5@gmail.com</p>
+        <p>github.com/Nasty56</p>
+    </footer>
+
+</div>
+
+<div id="imageModal" class="modal">
+    <span class="close">&times;</span>
+    <img class="modal-content" id="modalImg">
+</div>
+
+<script>
+    const modal = document.getElementById("imageModal");
+    const modalImg = document.getElementById("modalImg");
+    const closeBtn = document.querySelector(".close");
+    const images = document.querySelectorAll(".zoomable");
+
+    images.forEach(img => {
+        img.style.cursor = "pointer";
+        img.addEventListener("click", function() {
+            modal.style.display = "flex";
+            modalImg.src = this.src;
+        });
+    });
+
+    closeBtn.addEventListener("click", function() {
+        modal.style.display = "none";
+    });
+
+    modal.addEventListener("click", function(e) {
+        if (e.target === modal) {
+            modal.style.display = "none";
+        }
+    });
+</script>
+</body>
+</html>
